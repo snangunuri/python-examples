@@ -12,5 +12,4 @@ with open (input_file, 'r') as myfile:
           break
         else:
           sequence = sequence + line.strip()
-print "printing string"
 print("The sequence for %s is %s" % (gene, sequence))
